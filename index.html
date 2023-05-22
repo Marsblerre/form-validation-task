@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/102d26b2ed.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- 5 input, 
+AD SOYAD simvol olmaz*
+email regex yoxla*
+Password - seen unseen
+Confirm Pass - seen unseen -->
+    <div class="container">
+        <form class="form">
+            <h3 class="title-top"> Account Sign Up </h3>
+            <div class="input-row">
+                <label for="name">First Name</label>  <br />  
+                <input type="text" name="name" id="name" />
+            </div>
+            <div class="input-row">
+                <label for="lname">Last Name</label>  <br />  
+                <input type="text" name="lname" id="lname" />
+            </div>
+            <div class="input-row">
+                <label for="email">Email</label> <br />  
+                <input type="text" name="email" id="email" />
+            </div>
+            <div class="input-row">
+                <label for="pass">Password</label> <br />  
+                <div class="eyeContainer">
+                    <input type="password" name="pass" id="pass" />
+                    <div class="togglePassword">
+                        <i id="eyeIcon" class="fa-regular fa-eye "></i>
+                        <!-- <i class="fa-sharp fa-regular fa-eye-slash"></i> -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="input-row">
+                <label for="passCheck">Repeat Password</label> <br />  
+                <input type="password" name="passCheck" id="passCheck" />
+            </div>
+            <div class="input-row">
+
+                <button id="btn" class="btn" type="submit">Submit</button>
+            </div>
+            <!-- <div class="input-row"> -->
+                <div class="alert-container">
+
+                    <!-- <span class="alert" id="alert">Wrong name</span> -->
+                </div>
+            <!-- </div> -->
+        </form>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    
+  </body>
+</html>

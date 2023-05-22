@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    background: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 450px;
+    height: max-content;
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .15);
+}
+.form{
+    width: 100%;
+    padding: 12px 30px;
+    color: #2c2c2c;
+}
+.title-top{
+    font-family: inherit;
+    font-size: 24px;
+    color: #555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.input-row{
+    margin-bottom: 24px;
+    position: relative;
+}
+/* .input-row label{
+    margin-bottom: 12px!important;
+} */
+.input-row input{
+    color: #555;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: 0 0;
+    height: 44px;
+    padding: 0 12px;
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    outline: none;
+    /* margin-top: 8px; */
+}
+.eyeContainer{
+    position: relative;
+}
+.togglePassword{
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    display: flex;
+}
+.btn{
+    font-family: inherit;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18px;
+    min-width: 130px;
+    height: 48px;
+    background-color: #333;
+    border-radius: 27px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+span.alert{
+    width: 100%;
+    /*height: 48px;
+    */background: #ffa1a1;
+    color: #b41313;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 4px;
+    /* display: none */
+
+}
+
+.alert-success{
+    background: #a6ff98;
+    color: #26b413;
+
+}
+.alert-warning{
+    background: #fff27d;
+    color: #fffb00;
+}
+.showAlert{
+    opacity: 1;
+    /* display: block; */
+}
